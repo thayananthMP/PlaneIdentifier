@@ -1,0 +1,46 @@
+{
+  materials: [
+    {
+      name: 'mat5',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.01,
+            0.60999999999999999,
+            0.90000000000000002,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/directionalarrow.obj',
+    name: 'directionalarrow',
+    scale: 0.09,
+    recenter: 'root',
+         smoothing_angle: 45.0,
+         flip_texture_coordinates: false,
+         fix_infacing_normals: false,
+  },
+  version: '0.54:2',
+}
